@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{31215237-2300-4144-8c58-8738d824329e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{ee5b7c73-4e26-44e1-b088-99c6751e26be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\SoltingAlgorithms">
+      <UniqueIdentifier>{73992e18-7bfb-4a2f-8d6a-71c6bac9e6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SoltingAlgorithms">
+      <UniqueIdentifier>{b27b8814-9d69-493b-a0f2-12cd09dffb51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="InputReader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SorterBase.cpp">
+      <Filter>src\SoltingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
+      <Filter>src\SoltingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionSort.cpp">
+      <Filter>src\SoltingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DummyAlgorithm.cpp">
+      <Filter>src\SoltingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>src\SoltingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="RadixSort.cpp">
+      <Filter>src\SoltingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
+      <Filter>src\SoltingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="CocktailSort.cpp">
+      <Filter>src\SoltingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="CombSort.cpp">
+      <Filter>src\SoltingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="GnomeSort.cpp">
+      <Filter>src\SoltingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="OddEvenSort.cpp">
+      <Filter>src\SoltingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="CycleSort.cpp">
+      <Filter>src\SoltingAlgorithms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="InputReader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SorterBase.h">
+      <Filter>include\SoltingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>include\SoltingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <Filter>include\SoltingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="DummyAlgorithm.h">
+      <Filter>include\SoltingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>include\SoltingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="RadixSort.h">
+      <Filter>include\SoltingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>include\SoltingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="CocktailSort.h">
+      <Filter>include\SoltingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="CombSort.h">
+      <Filter>include\SoltingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="GnomeSort.h">
+      <Filter>include\SoltingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="OddEvenSort.h">
+      <Filter>include\SoltingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="CycleSort.h">
+      <Filter>include\SoltingAlgorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
